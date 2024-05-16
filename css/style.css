@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: flex-start;
+}
+.hero-title{
+    font-size: 32px;
+    width: 350px;
+}
+.hero-text{
+    margin-top: 30px;
+    width: 350px;
+}
+.hero-btn{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 150px;
+}
+.hero-img{
+    width: 500px;
+    margin-top: -80px;
+    height: 500px;
+}
+.skills{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+.skills-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.speaking{
+    width: 375px;
+    height: 930px;   
+}
+.reading{
+    width: 375px;
+    /* background-color: #F5F5F5; */
+  
+    height: 630px;
+}
+.writing{
+    width: 375px;
+    /* background-color: #F5F5F5; */
+    height: 630px;
+}
+.listening{
+    width: 780px;
+    height: 270px;
+    display: flex;
+    
+}
+.skills-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    background-color: #ececec;
+}
+.card-body{
+    padding: 50px;
+}
+.card-body-title{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.card-body-text{
+    margin-top: 20px;
+}
+.card-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid black;
+    font-size: 20px;
+    background-color: transparent;
+    margin-top: 150px;
+}
+.card-img{
+    width: 100%;
+}
+.writing-btn{
+    margin-top: 15px;
+}
+.reading-body{
+    margin-top: 125px;
+}
